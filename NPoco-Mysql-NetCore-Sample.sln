@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{78AC1AD2-DBFE-4B81-963A-C8BA583F25D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E21664AA-6484-4AB5-B3AB-8CC4264F9100}"
+	ProjectSection(SolutionItems) = preProject
+		base.sql = base.sql
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "NPoco-Mysql-NetCore-Sample", "src\NPoco-Mysql-NetCore-Sample\NPoco-Mysql-NetCore-Sample.xproj", "{16AA6336-54F7-4477-8253-9790013BDE8C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16AA6336-54F7-4477-8253-9790013BDE8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16AA6336-54F7-4477-8253-9790013BDE8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16AA6336-54F7-4477-8253-9790013BDE8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16AA6336-54F7-4477-8253-9790013BDE8C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{16AA6336-54F7-4477-8253-9790013BDE8C} = {78AC1AD2-DBFE-4B81-963A-C8BA583F25D6}
+	EndGlobalSection
+EndGlobal
